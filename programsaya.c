@@ -4,7 +4,7 @@
 int main(){
 	char nama[30];
 	char npm [30];
-	float ipk;
+	float IPK;
 	int nilai;
 	char kelamin [20];
 	bool status= true;
@@ -17,8 +17,8 @@ int main(){
 	printf ("Masukan Npm: ");
 	scanf ("%s", &npm);
 	
-	printf ("Masukan Ipk: ");
-	scanf ("%f", &ipk);
+	printf ("Masukan IPK: ");
+	scanf ("%f", &IPK);
 	
 	printf ("Masukan Nilai: ");
 	scanf ("%d", &nilai);
@@ -35,7 +35,7 @@ int main(){
 	
 	printf ("Nama anda adalah %s\n", nama);
 	printf ("Npm anda adalah %s\n", npm);
-	printf ("Ipk anda adalah %f\n", ipk);
+	printf ("Ipk anda adalah %f\n", IPK);
 	printf ("Nilai anda adalah %d\n", nilai);
 	printf ("jenis kelamn anda adalah %s\n", kelamin);
 	printf ("status pernikahan anda %d\n", status);
